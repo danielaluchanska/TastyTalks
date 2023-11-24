@@ -1,0 +1,50 @@
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    background-color: #333;
+    color: #fff;
+}
+
+.user-table tbody tr:hover {
+    cursor: pointer;
+    background-color: #6fb151;
+}
+
+
+.user-username {
+    text-align: center;
+    text-decoration: solid;
+    background-color: #c3cdcf;
+}
+
+.user-username:hover {
+    background-color: #0e7c57;
+}
+
+.user-comments {
+    text-align: center;
+    text-decoration: solid;
+    background-color: #c3cdcf;
+}
+
+.user-comments:hover {
+    background-color: #0e7c57;
+}
+
+.user-date {
+    text-align: center;
+    text-decoration: solid;
+    background-color: #c3cdcf;
+}
+
+.user-date:hover {
+    background-color: #0e7c57;
+}
